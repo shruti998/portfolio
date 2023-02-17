@@ -1,16 +1,30 @@
+import Ott from '../../Images/Ott.png';
+import MWH from '../../Images/MWH.png';
+import StudentAssistance from '../../Images/StudentAssistance.png';
+
 const ProjData = [
     {
-        // imgsrc: reactjs,
-        title: "My own Portfolio website using ReactJs",
-        tech: "ReactJs,HTML, CSS and JavaScript",
+        imgsrc: StudentAssistance,
+        type:"Academic Project      ",
+        title: "Student Assistance",
+        tech: "ReactJs,HTML, CSS, NodeJs,ExpressJs, MongoDB and JavaScript",
         link: "https://github.com/ShrutiSri1/Portfolio_Website"
 
     }, {
-        // imgsrc: maternal,
-        title: "Maternal women's Healthcare Website",
-        tech: "HTML, CSS and JavaScript",
-        link: "https://github.com/dscnsec/MaternalWomenHealthcare"
+     imgsrc: Ott,
+        title: "UX case study: solving “what to watch” on OTT platforms",
+        type:"Personal Project",
+        tech: "User Experience",
+        link: "https://medium.com/design-bootcamp/ux-case-study-solving-what-to-watch-on-ott-platforms-6f7df05d2083"
 
     },
+    {
+        imgsrc:MWH,
+           title: "Maternal women's Healthcare Website",
+           type:"DSC Solution Challenge",
+           tech: "HTML, CSS and JavaScript",
+           link: "https://github.com/dscnsec/MaternalWomenHealthcare"
+   
+       },
 ]
 export default ProjData;
