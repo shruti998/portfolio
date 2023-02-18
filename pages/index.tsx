@@ -44,7 +44,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1h5Ln_ugeZlJf6GPsmAtASsdAesFFovf6/view?usp=sharing" target="_blank"
+                  href="https://drive.google.com/file/d/1h5Ln_ugeZlJf6GPsmAtASsdAesFFovf6/view?usp=sharing" target="_blank" rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -61,9 +61,9 @@ export default function Home() {
             </h3>
            
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/shruti-srivastava333/" target="_blank"><AiFillLinkedin /></a>
-            <a href="https://medium.com/@shruti.shrivastava333" target="_blank"><AiFillMediumCircle/></a>
-           <a href="https://github.com/shruti998" target="_blank"> <AiFillGithub/></a>
+            <a href="https://www.linkedin.com/in/shruti-srivastava333/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://medium.com/@shruti.shrivastava333" target="_blank" rel="noreferrer"><AiFillMediumCircle/></a>
+           <a href="https://github.com/shruti998" target="_blank" rel="noreferrer"> <AiFillGithub/></a>
              
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
