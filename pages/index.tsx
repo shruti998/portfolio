@@ -83,18 +83,12 @@ export default function Home() {
           </div>
         <div>
           <div className="  py-10">
-          <h1 className="text-3xl py-1 dark:text-white my-8">Skills</h1>
+          <h1 className="text-3xl py-1 dark:text-white my-8 ">Skills</h1>
           <Skills/>
-          <div className="lg:flex gap-10 content-start">
-           
-           
-         
-         
-         
-           </div>
+        
           </div>
         <h1 className="text-3xl py-1  dark:text-white mt-10 ">Projects</h1>
-        <div className="lg:flex gap-10 ">
+        <div className="lg:flex gap-10 shadow-lg">
             
         {
                                 ProjectData.map((val, ind) => {
@@ -111,7 +105,7 @@ export default function Home() {
         
           </div>
           <h1 className="text-3xl py-1 dark:text-white mt-10">Experience</h1>
-          <div className="lg:flex gap-10 content-start">
+          <div className="lg:flex gap-10 content-start shadow" >
            
           {
                                 ExperienceData.map((val, ind) => {
@@ -129,7 +123,7 @@ export default function Home() {
         
           </div>
           <h1 className="text-3xl py-1 dark:text-white mt-10">Education</h1>
-          <div className="lg:flex gap-10">
+          <div className="lg:flex gap-10 shadow-lg">
            
           {
                                 EducationData.map((val, ind) => {

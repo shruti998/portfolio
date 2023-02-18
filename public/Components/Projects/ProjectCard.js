@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
 
 
        
-        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+        <div className="text-center shadow-lg  shadow p-10 rounded-xl my-10  dark:bg-white flex-1">
   
                <Image src={props.imgsrc}  />  
            
