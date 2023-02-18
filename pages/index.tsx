@@ -53,8 +53,9 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-           <ReactTypingEffect className="sm:text-2px md:text-6xl lg:text-10xl" text={['Hello!! ']} speed={100} eraseDelay={700} />
+           <ReactTypingEffect className="sm:text-2px md:text-6xl lg:text-10xl" text={['Hello!! I am']} speed={100} eraseDelay={700} />
             </h2>
+            <h1 className="text-2xl py-2 dark:text-white md:text-3xl text-teal-600 font-bold">Shruti Srivastava</h1>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
              Aspiring Software Engineer
             </h3>
@@ -92,8 +93,8 @@ export default function Home() {
          
            </div>
           </div>
-        <h1 className="text-3xl py-1 dark:text-white mt-10">Projects</h1>
-        <div className="lg:flex gap-10">
+        <h1 className="text-3xl py-1  dark:text-white mt-10 ">Projects</h1>
+        <div className="lg:flex gap-10 ">
             
         {
                                 ProjectData.map((val, ind) => {
