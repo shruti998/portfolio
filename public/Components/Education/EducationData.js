@@ -6,7 +6,7 @@ const EducationData = [
         title: "Master of Science in Information Systems ",
         uni:"Northeastern University, Boston, MA",
         gpa:"GPA: 3.7",
-        date:"Sep 2022 - Expected May 2024",
+        date:"Sep 2022 - Dec 2024",
        
 
     },
