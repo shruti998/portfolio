@@ -15,7 +15,7 @@ const EducationData = [
         title: "Bachelor of Technology in Information Technology  ",
         uni:"Netaji Subhash Engineering College Kolkata, India",
         gpa:"GPA: 3.6",
-        date:"Jun 2016 - jun 2020",
+        date:"July 2016 - July 2020",
        
 
     },

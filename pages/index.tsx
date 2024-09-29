@@ -38,7 +38,7 @@ export default function Home() {
       <main className=" bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="font-burtons text-xl">ShrutiSrivastava</h1>
+            <h1 className="text-teal-600 font-burtons text-xl">ShrutiSrivastava</h1>
             <ul className="flex items-center">
             
               <li>
@@ -73,7 +73,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
+            <h3 className="text-teal-600 text-2xl bold text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             I am a dynamic and adaptable graduate student of Information Systems from Northeastern University, with a rich background of two years working as a Software Engineer at Tata Consultancy Services. My skillset includes proficiency in various areas such as Java, Data Structures and Algorithms, Web Development, Object-Oriented Programming, Database Management, and UX Design. I am keen on pursuing career opportunities in roles involving full-stack development and UX Engineering.           
             </p>
@@ -83,11 +83,11 @@ export default function Home() {
           </div>
         <div>
           <div className="  py-10">
-          <h1 className="text-3xl py-1 dark:text-white my-8 ">Skills</h1>
+          <h1 className=" text-teal-600  text-2xl bold text-3xl py-1 dark:text-white my-8 ">Skills</h1>
           <Skills/>
         
           </div>
-        <h1 className="text-3xl py-1  dark:text-white mt-10 ">Projects</h1>
+        <h1 className="text-teal-600 bold text-2xl text-3xl py-1  dark:text-white mt-10 ">Projects</h1>
         <div className="lg:flex gap-10 shadow-lg">
             
         {
@@ -104,7 +104,7 @@ export default function Home() {
         
         
           </div>
-          <h1 className="text-3xl py-1 dark:text-white mt-10">Experience</h1>
+          <h1 className="text-teal-600 bold text-3xl py-1 dark:text-white mt-10">Experience</h1>
           <div className="lg:flex gap-10 content-start shadow" >
            
           {
@@ -122,7 +122,7 @@ export default function Home() {
         
         
           </div>
-          <h1 className="text-3xl py-1 dark:text-white mt-10">Education</h1>
+          <h1 className="text-teal-600 bold text-3xl py-1 dark:text-white mt-10">Education</h1>
           <div className="lg:flex gap-10 shadow-lg">
            
           {

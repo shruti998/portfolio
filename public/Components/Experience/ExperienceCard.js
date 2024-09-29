@@ -28,9 +28,7 @@ const ExperienceCard = (props) => {
             
               <p className="text-gray-800 py-1"> <b>Technologies Used: </b>{props.tech}</p>
             
-              <p className="text-gray-800 py-1">  Worked on an ETL( Extract Transform Load) project to migrate the data in IBM COS and the metadata
-in MongoDB. Applied XML in the java application to eliminate the hard-codded values and to make the code more
-dynamic</p>
+            
                
             
               
