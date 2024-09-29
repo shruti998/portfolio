@@ -75,7 +75,11 @@ export default function Home() {
           <div>
             <h3 className="text-teal-600 text-2xl bold text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            I am a dynamic and adaptable graduate student of Information Systems from Northeastern University, with a rich background of two years working as a Software Engineer at Tata Consultancy Services. My skillset includes proficiency in various areas such as Java, Data Structures and Algorithms, Web Development, Object-Oriented Programming, Database Management, and UX Design. I am keen on pursuing career opportunities in roles involving full-stack development and UX Engineering.           
+            Hi there! 👋 I'm Shruti, an experienced Software Engineer with a background in application development. Currently pursuing a Master's in Information Systems at Northeastern University, I bring over 2 years of full-stack experience, specializing in Java, React.js, and cloud technologies. As a Google Certified Associate Cloud Engineer, I excel in designing scalable applications for optimal performance and user experience.
+
+Throughout my career, I've led complex projects, including Java-based cloud-native applications and data migration for global clients. I thrive in collaborative environments, leveraging agile methodologies, automated testing, and DevOps to ensure efficient project delivery.
+
+I'm dedicated to continuous learning, embracing new challenges and emerging technologies to stay ahead in the industry. I'm eager to apply my skills in software engineering ,cloud computing, and UI/UX design in a growth-oriented organization
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             If you have any potential opportunities that align with my interests and skills, please don't hesitate to contact me at <b className="text-teal-600">srivastava.shru@northeastern.edu.</b>
